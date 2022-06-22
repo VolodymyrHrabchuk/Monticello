@@ -1,0 +1,121 @@
+.slick-dots {
+  width: 25px;
+  top: 295px;
+  right: 52px;
+  bottom: auto;
+  transform: translateY(-50%);
+}
+
+.carousel .slick-dots li button {
+  opacity: 1;
+  color: white;
+  background-image: url(../img/dot-1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.carousel .slick-dots li button::before {
+  font-size: 0;
+}
+
+.carousel .slick-dots li.slick-active button:before {
+  background-image: url(../img/dot-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slick-dots li {
+  margin: 10px 0;
+}
+
+.carousel .slick-next.slick-arrow::before {
+  width: 40px;
+  height: 40px;
+  content: "";
+}
+
+.carousel .slick-next {
+  right: 0;
+  background-image: url(../img/arrow-down.svg);
+  width: 40px;
+  height: 40px;
+  content: "";
+  left: 0;
+  margin: 0 auto;
+  bottom: 40px;
+}
+
+.carousel .slick-next.slick-arrow {
+  margin: 450px auto 0;
+}
+
+.news__item.slick-slide {
+  margin: 0 15px 0;
+}
+
+.news__wrapper.slick-slider {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.news__wrapper .slick-dots {
+  width: 100%;
+  top: auto;
+  right: 0;
+  bottom: 140px;
+}
+
+.news__wrapper .slick-dots li button {
+  background-image: url(../img/dot-1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.news__wrapper .slick-dots li button::before {
+  font-size: 0;
+}
+
+.news__wrapper .slick-dots li.slick-active button:before {
+  background-image: url(../img/dot-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.news__wrapper .slick-dots li {
+  margin: 0 10px 0;
+}
+
+.news__wrapper .slick-next.slick-arrow::before,
+.news__wrapper .slick-prev.slick-arrow::before {
+  width: 40px;
+  height: 40px;
+  content: "";
+}
+
+.news__wrapper .slick-next {
+  right: 0;
+  background-image: url(../img/right-arrow.svg);
+  width: 40px;
+  height: 40px;
+  content: "";
+  top: auto;
+  bottom: auto;
+}
+
+.news__wrapper .slick-prev {
+  right: 0;
+  background-image: url(../img/left-arrow.svg);
+  width: 40px;
+  height: 40px;
+  content: "";
+  top: auto;
+  bottom: auto;
+}
+
+.news__wrapper .slick-next.slick-arrow {
+  margin-right: -60px;
+}
+
+.news__wrapper .slick-prev.slick-arrow {
+  margin-left: -40px;
+}
